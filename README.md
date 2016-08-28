@@ -32,23 +32,21 @@ insert模式下，<F9>可以切换到paste模式，粘贴代码或文本就不�
 如：raw_in<tab>  sys.<tab <br />
 该插件是根据~/.vim/pydictiondict/complete-dict文件中的单词来补全的<br />
 如果后期发现自己用的不能补全，或者是自己写的模块里面没有,里面有一个python脚本来增加<br />
-```bash
-python pydiction.py mymodule
-```
+    ```python pydiction.py mymodule```<br />
 2. pythoncomplete<br />
 配置文件放在~/.vim_runtime/autoload/文件夹中<br />
 该设置不能补全Python关键字，<br />
 对象的方法可以补全，如list方法，string方法，或者导入模块的方法<br />
 并且显示该方法的docsting说明，非Python基本对象类型，需要导入模块后才可补全<br />
 和pydiction起到互补作用<br />
-用法：ctrl x ctrl o  如：<br />
+用法：ctrl+x ctrl+o  如：<br />
 import sys<br />
-sys.<ctrl x <ctrl o <br />
+sys.|ctrl+x  ctrl+o <br />
 上下键选择或者ctrl+n ctrl+p <br />
 3. 所在代码本身变量补全<br />
 这是vim默认自带功能，ctrl+n可以实现，如：<br />
 myval = 0<br />
-my<ctrl+n <br />
+my|ctrl+n <br />
 
 
 
