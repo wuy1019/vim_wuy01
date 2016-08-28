@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/mnt/lustre/GS_Pipeline_Lustre/20160807_Hiseq_Clinical/test'
+let g:netrw_dirhist_2='/mnt/lustre/GS_Pipeline_Lustre/ZL_data/20160817_KEGG'
+let g:netrw_dirhist_3='/mnt/lustre/YHProject/YH058_20160819_Hiseq/OUT/VCF'
+let g:netrw_dirhist_4='/mnt/lustre/DATA/info_test_cc/test/tt.sh.split'
+let g:netrw_dirhist_5='/mnt/lustre/DATA/160819_K00141_0130_AHCH5TBBXX/BCLTMP/L001/Data/Intensities/BaseCalls/Reports/html/HCH5TBBXX/all'
