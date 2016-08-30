@@ -13,6 +13,11 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry
 
+
+: hi Search term=reverse ctermbg=4
+"真正tab键输入
+imap <F3> <C-v><tab>
+
 " F9切换paste模式
 set pastetoggle=<F9>
 "将全文的tab全部替换成4空格
